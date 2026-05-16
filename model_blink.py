@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import sinabs.layers as sl
 
 class SurrogateExponential(torch.autograd.Function):
     grad_width = 2.0  # Initial width

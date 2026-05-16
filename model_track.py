@@ -1,8 +1,5 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
-import sinabs.layers as sl
-import sinabs.activation as sa
 
 class SurrogateExponential(torch.autograd.Function):
     @staticmethod
